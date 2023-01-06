@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import shortcode from "../api/shortcode";
 
 const HTTP_URL_VALIDATOR_REGEX =
-  /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%.\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%\+.~#?&//=]*)/g;
+  /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/g;
 
 const Search = () => {
   const [link, setLink] = useState("");
